@@ -1,4 +1,4 @@
-export default {
+const exportedObject = {
   Komoditas: {
     type: "text",
     required: true,
@@ -35,3 +35,6 @@ export default {
     type: "submit",
   },
 };
+
+export default exportedObject;
+

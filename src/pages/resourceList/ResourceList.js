@@ -123,7 +123,10 @@ const ResourceList = () => {
 
   const handleEdit = (resource) => {
     localStorage.setItem("resourceData", JSON.stringify(resource));
-    navigate(`/edit/${resource?.uuid}`);
+    navigate({
+      pathname: "/edit",
+      search: `${resource?.uuid}`,
+    });
     window.location.reload(false);
   };
 

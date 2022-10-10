@@ -15,7 +15,7 @@ const RoutesManagement = () => {
         <Routes>
           <Route path="/" element={<ResourceList />} />
           <Route path="add" element={<AddResource />} />
-          <Route path="edit/:id" element={<EditResource />} />
+          <Route path="edit" element={<EditResource />} />
         </Routes>
         <Gap height={30} />
       </div>

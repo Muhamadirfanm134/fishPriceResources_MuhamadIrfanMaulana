@@ -41,7 +41,7 @@
     <a href="https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://fish-resources-muhamadirfanmaulana.netlify.app/">[![Live-site][Live-site-shield]][Live-site-url]</a>
+    <a href="https://fish-resources-muhamadirfanmaulana.netlify.app/"><b>View Live Site</b></a>
     ·
     <a href="https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues">Report Bug</a>
     ·
@@ -208,9 +208,7 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 [stars-shield]: https://img.shields.io/github/stars/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana.svg?style=for-the-badge
 [stars-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana.svg?style=for-the-badge
-[issues-url]: https://fish-resources-muhamadirfanmaulana.netlify.app/
-[Live-site-shield]: https://img.shields.io/github/Live-site/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana.svg?style=for-the-badge
-[Live-site-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues
+[issues-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/muhamadirfanm134/
 [product-screenshot-1]: src/assets/images/product-screenshoot-1.png

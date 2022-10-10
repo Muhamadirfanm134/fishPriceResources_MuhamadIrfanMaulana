@@ -211,16 +211,16 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 [issues-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/muhamadirfanm134/
-[product-screenshot-1]: src/assets/images/product-screenshoot-1.png
-[product-screenshot-2]: src/assets/images/product-screenshoot-2.png
-[product-screenshot-3]: src/assets/images/product-screenshoot-3.png
-[product-screenshot-4]: src/assets/images/product-screenshoot-4.png
-[product-screenshot-5]: src/assets/images/product-screenshoot-5.png
-[product-screenshot-6]: src/assets/images/product-screenshoot-6.png
-[product-screenshot-7]: src/assets/images/product-screenshoot-7.png
-[product-screenshot-8]: src/assets/images/product-screenshoot-8.png
-[product-screenshot-9]: src/assets/images/product-screenshoot-9.png
-[product-screenshot-10]: src/assets/images/product-screenshoot-10.png
+[product-screenshot-1]: src/assets/images/product-screenshoot-1.webp
+[product-screenshot-2]: src/assets/images/product-screenshoot-2.webp
+[product-screenshot-3]: src/assets/images/product-screenshoot-3.webp
+[product-screenshot-4]: src/assets/images/product-screenshoot-4.webp
+[product-screenshot-5]: src/assets/images/product-screenshoot-5.webp
+[product-screenshot-6]: src/assets/images/product-screenshoot-6.webp
+[product-screenshot-7]: src/assets/images/product-screenshoot-7.webp
+[product-screenshot-8]: src/assets/images/product-screenshoot-8.webp
+[product-screenshot-9]: src/assets/images/product-screenshoot-9.webp
+[product-screenshot-10]: src/assets/images/product-screenshoot-10.webp
 [Saas]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 [Saas-url]:https://sass-lang.com/
 [Redux]:https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white

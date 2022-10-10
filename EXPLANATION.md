@@ -87,7 +87,7 @@ This is the home page view. User can see list of fish resources with info like c
 
 User also can sort the list by Date, Ascending, and Descending.
 
-[![Filter][product-screenshoot-11]](https://fish-resources-muhamadirfanmaulana.netlify.app/)
+[![Filter][product-screenshot-11]](https://fish-resources-muhamadirfanmaulana.netlify.app/)
 
 If the search result doesn't exist on the list, the portal will show 404 data not found.
 
@@ -166,6 +166,7 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 [product-screenshot-8]: src/assets/images/product-screenshoot-8.webp
 [product-screenshot-9]: src/assets/images/product-screenshoot-9.webp
 [product-screenshot-10]: src/assets/images/product-screenshoot-10.webp
+[product-screenshot-11]: src/assets/images/product-screenshoot-11.webp
 [Saas]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 [Saas-url]:https://sass-lang.com/
 [Redux]:https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white

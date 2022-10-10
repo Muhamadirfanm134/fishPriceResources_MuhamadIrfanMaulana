@@ -85,8 +85,10 @@
 
 * [![React][React.js]][React-url]
 * [![Javascript][Javascript]][Javascript-url]
-* [![Graphql][Graphql]][Graphql-url]
 * [![Ant-design][Ant-design]][Ant-design]
+* [![Saas][Saas]][Saas-url]
+* [![Redux][Redux]][Redux-url]
+* [![Netlify][Netlify]][Netlify-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,6 +221,12 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 [product-screenshot-8]: src/assets/images/product-screenshoot-8.png
 [product-screenshot-9]: src/assets/images/product-screenshoot-9.png
 [product-screenshot-10]: src/assets/images/product-screenshoot-10.png
+[Saas]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[Saas-url]:https://sass-lang.com/
+[Redux]:https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white
+[Redux-url]:https://redux.js.org/
+[Netlify]:https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
+[Netlify-url]:https://www.netlify.com/
 [Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 [Javascript-url]: https://www.javascript.com/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

@@ -160,7 +160,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 
-See the [open issues](https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulanagraphs/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,9 +202,9 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulanagraphs/contributors
+[contributors-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulananetwork/members
+[forks-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
 [stars-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/stargazers
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge

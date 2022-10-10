@@ -491,6 +491,8 @@ const ResourceList = () => {
               </Col>
             ))}
           </Row>
+          <div className="totalData">Total = {total} data's</div>
+          <Gap height={10} />
           <Pagination
             current={currentPage}
             showSizeChanger={false}
@@ -498,7 +500,7 @@ const ResourceList = () => {
             onChange={onChange}
             total={total}
             pageSizeOptions={[12, 24, 48]}
-            showTotal={(total) => `Total ${total} data's`}
+            showTotal={false}
           />
         </>
       ) : (

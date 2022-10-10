@@ -201,13 +201,13 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Muhamadirfanm134/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/contributors
-[forks-shield]: https://img.shields.io/github/forks/https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Muhamadirfanm134/repo_name.svg?style=for-the-badge
 [forks-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/members
-[stars-shield]: https://img.shields.io/github/stars/https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Muhamadirfanm134/repo_name.svg?style=for-the-badge
 [stars-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/stargazers
-[issues-shield]: https://img.shields.io/github/issues/https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Muhamadirfanm134/repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/muhamadirfanm134/

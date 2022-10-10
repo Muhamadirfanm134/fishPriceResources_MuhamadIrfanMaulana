@@ -53,11 +53,13 @@ const AddResource = () => {
       </CardHeaderTwoComponent>
       <Gap height={5} />
       <CardComponent>
+        <Gap height={30} />
         <Row justify="center">
           <Col xs={24} sm={24} md={18} lg={18} xl={18}>
             <JsonToForm model={Schema} onSubmit={submit} />
           </Col>
         </Row>
+        <Gap height={30} />
       </CardComponent>
     </>
   );

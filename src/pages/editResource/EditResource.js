@@ -49,16 +49,17 @@ const EditResource = () => {
     <>
       <CardHeaderTwoComponent>
         <div className="cardTitle">Edit Data</div>
-
         <div className="divider" />
       </CardHeaderTwoComponent>
       <Gap height={5} />
       <CardComponent>
+        <Gap height={30} />
         <Row justify="center">
           <Col xs={24} sm={24} md={18} lg={18} xl={18}>
             <JsonToForm model={myComponent} onSubmit={submit} />
           </Col>
         </Row>
+        <Gap height={30} />
       </CardComponent>
     </>
   );

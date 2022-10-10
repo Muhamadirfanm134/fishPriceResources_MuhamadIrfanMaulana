@@ -67,7 +67,7 @@ const ResourceList = () => {
   const resourceList = useSelector(resourceSelectors.selectAll)
     ?.filter((resource) => resource?.komoditas !== null)
     .sort((a, b) => (a.timestamp > b.timestamp ? -1 : 1));
-  // const resourceList = useSelector(resourceSelectors.selectAll);
+
   const locationList = useSelector(locationSelectors.selectAll);
   const sizeList = useSelector(sizeSelectors.selectAll);
 
@@ -493,9 +493,11 @@ const ResourceList = () => {
           </Row>
           <Pagination
             current={currentPage}
+            showSizeChanger={false}
             pageSize={12}
             onChange={onChange}
             total={total}
+            pageSizeOptions={[12, 24, 48]}
             showTotal={(total) => `Total ${total} data's`}
           />
         </>

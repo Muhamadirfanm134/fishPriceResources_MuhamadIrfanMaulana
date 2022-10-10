@@ -84,7 +84,7 @@
 ### Built With
 
 * [![React][React.js]][React-url]
-* [![Typescript][Typescript]][Typescript-url]
+* [![Javascript][Javascript]][Javascript-url]
 * [![Graphql][Graphql]][Graphql-url]
 * [![Ant-design][Ant-design]][Ant-design]
 
@@ -219,8 +219,8 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 [product-screenshot-8]: src/assets/images/product-screenshoot-8.png
 [product-screenshot-9]: src/assets/images/product-screenshoot-9.png
 [product-screenshot-10]: src/assets/images/product-screenshoot-10.png
-[Typescript]: https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square
-[Typescript-url]: https://www.typescriptlang.org/
+[Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[Javascript-url]: https://www.javascript.com/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Graphql]: https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql

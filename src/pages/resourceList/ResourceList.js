@@ -1,5 +1,4 @@
 import {
-  CloseOutlined,
   ExclamationCircleOutlined,
   FilterFilled,
   PushpinFilled,
@@ -7,6 +6,7 @@ import {
 import {
   Button,
   Col,
+  Collapse,
   Divider,
   Form,
   Input,
@@ -41,16 +41,16 @@ import {
 import "./ResourceList.scss";
 
 const ResourceList = () => {
-  const [form] = Form.useForm();
-  const { Option } = Select;
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const { Option } = Select;
   const { confirm } = Modal;
+  const { Panel } = Collapse;
+  const [form] = Form.useForm();
   const [currentPage, setCurrentPage] = useState(1);
   const [minValue, setMinValue] = useState(0);
   const [maxValue, setMaxValue] = useState(12);
   const [search, setSearch] = useState("");
-  const [isFilterVisible, setIsFilterVisible] = useState(false);
   const [city, setCity] = useState();
   const [province, setProvince] = useState();
   const [size, setSize] = useState();
@@ -245,6 +245,48 @@ const ResourceList = () => {
     resourceList?.map((data) => data?.price)
   );
 
+  const panelHeader = (
+    <React.Fragment>
+      <Row align="middle" gutter={10}>
+        <Col
+          xs={16}
+          sm={18}
+          md={20}
+          lg={20}
+          xl={20}
+          onClick={(event) => event.stopPropagation()}
+        >
+          <Input
+            className="searchComponent"
+            placeholder="Type your keyword by commodity"
+            prefix={
+              <img
+                alt="Search-Icon"
+                src={searchIcon}
+                className="searchIconStyle"
+              />
+            }
+            value={search}
+            onChange={handleSearchChange}
+          />
+        </Col>
+        <Col xs={8} sm={6} md={4} lg={4} xl={4}>
+          <Button
+            className="secondaryButton"
+            icon={<FilterFilled />}
+            shape="round"
+            block
+            onClick={() => {
+              onReset();
+            }}
+          >
+            Filter
+          </Button>
+        </Col>
+      </Row>
+    </React.Fragment>
+  );
+
   return (
     <>
       <CardHeaderComponent>
@@ -265,56 +307,13 @@ const ResourceList = () => {
       </CardHeaderComponent>
 
       <CardFilterComponent>
-        <Row gutter={[10]} align="middle">
-          <Col xs={16} sm={18} md={18} lg={18} xl={20}>
-            <Input
-              className="searchComponent"
-              placeholder="Type your keyword by commodity"
-              prefix={
-                <img
-                  alt="Search-Icon"
-                  src={searchIcon}
-                  className="searchIconStyle"
-                />
-              }
-              value={search}
-              onChange={handleSearchChange}
-            />
-          </Col>
-          <Col xs={8} sm={6} md={6} lg={6} xl={4}>
-            <Button
-              className="secondaryButton"
-              icon={<FilterFilled />}
-              shape="round"
-              block
-              onClick={() => setIsFilterVisible(!isFilterVisible)}
-            >
-              Filter
-            </Button>
-          </Col>
-        </Row>
-        {isFilterVisible && (
-          <>
-            <Gap height={10} />
+        <Collapse ghost style={{ margin: "-10px" }}>
+          <Panel showArrow={false} header={panelHeader} key="1">
             <div className="filter-container">
-              <Row>
-                <Col span={12}>
-                  <div>
-                    <b>Advanced Filter</b>
-                  </div>
-                </Col>
-                <Col span={12} align="end">
-                  <Button
-                    className="filter-close-icon"
-                    type="link"
-                    icon={<CloseOutlined />}
-                    onClick={() => {
-                      setIsFilterVisible(false);
-                      onReset();
-                    }}
-                  />
-                </Col>
-              </Row>
+              <div>
+                <b>Advanced Filter</b>
+              </div>
+
               <Gap height={10} />
 
               <Form form={form} layout="vertical" id="form1">
@@ -392,11 +391,37 @@ const ResourceList = () => {
                   </Col>
 
                   <Col xs={24} sm={24} md={24} lg={24} xl={24}>
-                    <Form.Item name="price" label="Price">
+                    <Form.Item
+                      name="price"
+                      label={
+                        <Row align="middle" gutter={10}>
+                          <Col>
+                            <div>Price Range</div>
+                          </Col>
+                          <Col>
+                            {price?.length > 0 && (
+                              <div className="priceRange">
+                                Rp
+                                {price[price?.length - 2]
+                                  ?.toString()
+                                  ?.replace(/\B(?=(\d{3})+(?!\d))/g, ".")}{" "}
+                                - Rp
+                                {price[price?.length - 1]
+                                  ?.toString()
+                                  ?.replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+                              </div>
+                            )}
+                          </Col>
+                        </Row>
+                      }
+                    >
                       <Slider
-                        range
                         max={maxPrice}
                         step={25000}
+                        range={{
+                          draggableTrack: true,
+                        }}
+                        dots={true}
                         tooltip={{
                           formatter: (value) =>
                             `Rp` +
@@ -405,18 +430,13 @@ const ResourceList = () => {
                         onChange={onChangeSlider}
                       />
                     </Form.Item>
+                    <Gap height={10} />
                   </Col>
                 </Row>
 
                 <Row gutter={10}>
-                  <Col xs={8} sm={4} md={4} lg={4} xl={4}>
-                    <Button
-                      type="danger"
-                      shape="round"
-                      size="small"
-                      block
-                      onClick={onReset}
-                    >
+                  <Col xs={8} sm={3} md={3} lg={3} xl={3}>
+                    <Button type="danger" shape="round" block onClick={onReset}>
                       Reset
                     </Button>
                   </Col>
@@ -424,8 +444,9 @@ const ResourceList = () => {
                 <Gap height={10} />
               </Form>
             </div>
-          </>
-        )}
+            <Gap height={10} />
+          </Panel>
+        </Collapse>
       </CardFilterComponent>
 
       {resource_data?.length > 0 ? (

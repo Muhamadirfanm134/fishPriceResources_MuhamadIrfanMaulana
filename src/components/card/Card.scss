@@ -5,6 +5,9 @@
 }
 
 .headerCard {
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #fff;
   border-bottom: none;
   border-radius: 20px 20px 0px 0px;
@@ -16,6 +19,10 @@
 }
 
 .headerCardTwo {
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: rgb(0 0 0 / 8%) 0px 7px 25px 0px;

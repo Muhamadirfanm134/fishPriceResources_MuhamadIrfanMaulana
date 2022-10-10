@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana">
-    <img src="/src/assets/icons/logoPb.png" alt="Logo" width="80" height="80">
+    <img src="/src/assets/icons/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Fish Resources App By Muhamad Irfan Maulana</h3>
@@ -209,7 +209,7 @@ Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrf
 [issues-url]: https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/muhamadirfanm134/
-[product-screenshot-1]: src/assets/images/product-screenshot-1.png
+[product-screenshot-1]: src/assets/images/product-screenshoot-1.png
 [product-screenshot-2]: src/assets/images/product-screenshot-2.png
 [product-screenshot-3]: src/assets/images/product-screenshot-3.png
 [product-screenshot-4]: src/assets/images/product-screenshot-4.png

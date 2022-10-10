@@ -1,8 +1,4 @@
-import {
-  ExclamationCircleOutlined,
-  FilterFilled,
-  PushpinFilled,
-} from "@ant-design/icons";
+import { ExclamationCircleOutlined } from "@ant-design/icons";
 import {
   Button,
   Col,
@@ -13,6 +9,7 @@ import {
   Modal,
   Pagination,
   Row,
+  Segmented,
   Select,
   Slider,
 } from "antd";
@@ -55,6 +52,7 @@ const ResourceList = () => {
   const [province, setProvince] = useState();
   const [size, setSize] = useState();
   const [price, setPrice] = useState();
+  const [value, setValue] = useState("Date");
 
   const numEachPage = 12;
 
@@ -230,6 +228,14 @@ const ResourceList = () => {
     setMaxValue(12);
   };
 
+  if (value === "Date") {
+    resource_data?.sort((a, b) => (a.timestamp > b.timestamp ? -1 : 1));
+  } else if (value === "A-Z") {
+    resource_data?.sort((a, b) => (a.komoditas > b.komoditas ? 1 : -1));
+  } else {
+    resource_data?.sort((a, b) => (a.komoditas > b.komoditas ? -1 : 1));
+  }
+
   const onReset = () => {
     form.resetFields();
     setSearch();
@@ -273,7 +279,7 @@ const ResourceList = () => {
         <Col xs={8} sm={6} md={4} lg={4} xl={4}>
           <Button
             className="secondaryButton"
-            icon={<FilterFilled />}
+            icon={<i className="bx bx-fw bxs-filter-alt" />}
             shape="round"
             block
             onClick={() => {
@@ -447,6 +453,37 @@ const ResourceList = () => {
             <Gap height={10} />
           </Panel>
         </Collapse>
+        <Gap height={20} />
+
+        <Row align="middle" gutter={10}>
+          <Col>
+            <div style={{ fontSize: "12px" }}>Sort By:</div>
+          </Col>
+          <Col>
+            <Segmented
+              style={{ borderRadius: "8px", fontSize: "12px" }}
+              value={value}
+              onChange={setValue}
+              options={[
+                {
+                  label: "Date",
+                  value: "Date",
+                  icon: <i className="bx bx-fw bxs-calendar" />,
+                },
+                {
+                  label: "A-Z",
+                  value: "A-Z",
+                  icon: <i className="bx bx-fw bx-sort-a-z" />,
+                },
+                {
+                  label: "Z-A",
+                  value: "Z-A",
+                  icon: <i className="bx bx-fw bx-sort-z-a" />,
+                },
+              ]}
+            />
+          </Col>
+        </Row>
       </CardFilterComponent>
 
       {resource_data?.length > 0 ? (
@@ -467,7 +504,7 @@ const ResourceList = () => {
                       </div>
                       {resource?.area_kota && resource?.area_provinsi && (
                         <span className="location">
-                          <PushpinFilled />{" "}
+                          <i className="bx bx-fw bxs-map" />{" "}
                           <span>
                             {resource?.area_kota} - {resource?.area_provinsi}
                           </span>

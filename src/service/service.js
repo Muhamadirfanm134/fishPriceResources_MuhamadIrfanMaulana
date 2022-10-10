@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = `https://stein.efishery.com/v1/storages/5e1edf521073e315924ceab4`;
+const API_URL = `https://api.steinhq.com/v1/storages/6343ce0fd27cdd09f0c3d497`;
 
 export const getResources = createAsyncThunk(
   "resources/getResources",

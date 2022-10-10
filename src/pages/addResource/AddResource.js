@@ -34,6 +34,7 @@ const AddResource = () => {
     ];
 
     console.log({ values });
+
     await dispatch(addResources(values));
     Swal.fire({
       icon: "success",

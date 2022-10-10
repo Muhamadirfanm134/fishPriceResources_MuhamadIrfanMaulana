@@ -67,6 +67,7 @@ const ResourceList = () => {
   const resourceList = useSelector(resourceSelectors.selectAll)
     ?.filter((resource) => resource?.komoditas !== null)
     .sort((a, b) => (a.timestamp > b.timestamp ? -1 : 1));
+  // const resourceList = useSelector(resourceSelectors.selectAll);
   const locationList = useSelector(locationSelectors.selectAll);
   const sizeList = useSelector(sizeSelectors.selectAll);
 
@@ -392,7 +393,7 @@ const ResourceList = () => {
                       <Slider
                         range
                         max={maxPrice}
-                        step={50000}
+                        step={25000}
                         tooltip={{
                           formatter: (value) =>
                             `Rp` +

@@ -187,7 +187,7 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Email: muhamadirfan45513@gmail.com<br/>
-Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulanagraphs/](https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/)
+Project Link: [https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/](https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

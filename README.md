@@ -41,7 +41,7 @@
     <a href="https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://fish-resources-muhamadirfanmaulana.netlify.app/"><b>View Live Site</b></a>
+    <a href="https://fish-resources-muhamadirfanmaulana.netlify.app/"><b>VIEW LIVE SITE</b></a>
     ·
     <a href="https://github.com/Muhamadirfanm134/fishPriceResources_MuhamadIrfanMaulana/issues">Report Bug</a>
     ·

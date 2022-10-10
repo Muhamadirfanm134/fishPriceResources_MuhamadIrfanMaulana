@@ -85,6 +85,10 @@ This is the home page view. User can see list of fish resources with info like c
 [![Search][product-screenshot-3]](https://fish-resources-muhamadirfanmaulana.netlify.app/)
 [![Filter][product-screenshot-4]](https://fish-resources-muhamadirfanmaulana.netlify.app/)
 
+User also can sort the list by Date, Ascending, and Descending.
+
+[![Filter][product-screenshot-11]](https://fish-resources-muhamadirfanmaulana.netlify.app/)
+
 If the search result doesn't exist on the list, the portal will show 404 data not found.
 
 [![NotFound][product-screenshot-5]](https://fish-resources-muhamadirfanmaulana.netlify.app/)

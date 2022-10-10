@@ -125,7 +125,7 @@ const ResourceList = () => {
     localStorage.setItem("resourceData", JSON.stringify(resource));
     navigate({
       pathname: "/edit",
-      search: `${resource?.uuid}`,
+      search: `id=${resource?.uuid}`,
     });
     window.location.reload(false);
   };

@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import JsonToForm from "json-reactform";
 import React from "react";
 import { useDispatch } from "react-redux";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { CardComponent, CardHeaderTwoComponent } from "../../components/card";
 import Gap from "../../components/gap/Gap";
@@ -13,8 +13,9 @@ import { editResources } from "../../service/service";
 const EditResource = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
-  const { id } = useParams();
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const id = urlParams.get("id");
 
   const submit = async (params) => {
     console.log(params);
